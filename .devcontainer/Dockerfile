@@ -16,6 +16,7 @@ ENV BOOTSTRAP_HASKELL_INSTALL_HLS=1
 # OS packages for ghcup
 RUN apt-get update && \
     apt-get -y install --no-install-recommends git sudo jq bc make automake rsync htop curl build-essential lsb-release pkg-config libffi-dev libgmp-dev software-properties-common libssl-dev libtinfo-dev libsystemd-dev zlib1g-dev make g++ wget libncursesw5 libtool autoconf && \
+    apt-get -y install fonts-firacode && \
     apt-get clean
 # change user
 USER vscode
