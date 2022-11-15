@@ -12,7 +12,8 @@
   //     "terminal.integrated.defaultProfile.linux": "/bin/bash" // set your favorite shell
   // },
   "extensions": [
-    "haskell.haskell"
-  ],
+	"haskell.haskell",
+	"vscodevim.vim"
+],
   "remoteUser": "vscode"
 }
